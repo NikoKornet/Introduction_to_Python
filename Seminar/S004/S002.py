@@ -11,4 +11,4 @@ b = int(input("Введите первое число: "))
 i = 1
 while (max(a, b) * i) % min(a, b) != 0:
     i += 1
-    print(max(a, b) * i)
+print(max(a, b) * i)
